@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./assets/imgs/logo.png" />
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="d-flex">
+    <h1>Đăng nhập</h1>
+    <form class="form-submit" action="" id="formLogin">
+      <div class="form-control">
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="username" />
+      </div>
+      <div class="form-control">
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div class="form-control">
+        <button type="submit">Đăng nhập</button>
+      </div>
+      <div class="form-control">
+        <div id="message" class="message hidden"></div>
+      </div>
+    </form>
+
+    <script src="./assets/js/auth.js"></script>
+  </body>
+</html>

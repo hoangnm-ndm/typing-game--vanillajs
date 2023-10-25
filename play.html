@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="./assets/imgs/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Fpoly - typing game</title>
+  </head>
+  <body class="d-flex">
+    <button id="settings-btn" class="settings-btn d-flex">
+      <i class="fas fa-cog"></i>
+    </button>
+
+    <div id="settings" class="settings">
+      <form id="settings-form">
+        <div>
+          <label for="difficulty">Cấp độ</label>
+          <select id="difficulty">
+            <option value="easy">Dễ</option>
+            <option value="medium">Vừa</option>
+            <option value="hard">Khó</option>
+          </select>
+        </div>
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>👩 Tập gõ phím với Fpoly 👨</h2>
+      <div class="play-infor__wrap">
+        <p class="time-container">
+          Thời gian (giây): <span id="time">10s</span>
+        </p>
+
+        <p class="score-container">Điểm: <span id="score">0</span></p>
+      </div>
+      <small>Gõ vào đây:</small>
+
+      <h1 id="word"></h1>
+
+      <input
+        type="text"
+        id="text"
+        autocomplete="off"
+        placeholder="Mời nhập..."
+        autofocus
+      />
+
+      <div id="end-game-container" class="end-game-container"></div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
