@@ -1,0 +1,25 @@
+{
+  "name": "typing_game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server -w db.json --port 3002"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangnm-ndm/typing-game--vanillajs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoangnm-ndm/typing-game--vanillajs/issues"
+  },
+  "homepage": "https://github.com/hoangnm-ndm/typing-game--vanillajs#readme",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
