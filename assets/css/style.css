@@ -24,6 +24,7 @@ li {
 
 a {
   text-transform: none;
+  color: #fff;
 }
 
 h1 {
@@ -33,6 +34,10 @@ h1 {
 .message {
   color: var(--text-color);
   font-weight: 800;
+}
+
+.t-center {
+  text-align: center;
 }
 .hidden {
   display: none;
